@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Ak Career Counseling Point - Expert career guidance to help you unlock your true potential and choose the right career path.">
+    <meta name="keywords"
+        content="career counseling, career guidance, career advice, education counseling, career opportunities, professional growth, education loan, career planning">
+    <meta name="author" content="Ak Career Counseling Point">
+    <title>Ak Career Counseling Point - Unlock Your True Potential</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+
+<body class="text-gray-600">
+    <!-- Header Section -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
+            <a href="#" class="flex title-font font-medium items-center text-gray-900 mb-3 md:mb-0">
+                <img src="./img/image.png" alt="Ak Career Counseling Point Logo" class="w-10 h-10">
+                <span class="ml-2 text-lg">Ak Career Counseling Point</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a href="#" class="mr-4 hover:text-gray-900">Home</a>
+                <a href="about.html" class="mr-4 hover:text-gray-900">About Us</a>
+                <a href="services.html" class="mr-4 hover:text-gray-900">Our Services</a>
+                <a href="contact.html" class="mr-4 hover:text-gray-900">Contact Us</a>
+
+            </nav>
+        </div>
+    </header>
+    <hr>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-50 py-8">
+        <div class="container mx-auto flex px-5 py-8 md:flex-row flex-col items-center">
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pr-16 md:pr-10 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900">Unlock Your True Potential</h1>
+                <p class="mb-6 leading-relaxed text-gray-600">Choosing the right career path can be challenging, but
+                    with the right guidance, you can turn your aspirations into reality. Our expert career counseling
+                    helps you identify your strengths, explore opportunities, and make informed decisions for a
+                    successful future.</p>
+                <div class="flex w-full md:justify-start justify-center items-end">
+                    <div class="relative mr-3 md:w-full lg:w-full xl:w-1/2 w-3/5">
+                        <label for="career-field" class="leading-7 text-sm text-gray-600">Select Your Career
+                            Interest</label>
+                        <select id="career-field"
+                            class="w-full bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-indigo-200 text-sm outline-none text-gray-700 py-2 px-3 leading-6 transition-colors duration-200 ease-in-out">
+                            <option value="ANM">ANM</option>
+                            <option value="B.Tech">B.Tech</option>
+                            <option value="BAMS">BAMS</option>
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="B.Com">B.Com</option>
+                            <option value="B.Ed">B.Ed</option>
+                            <option value="BJMC">BJMC</option>
+                            <option value="B.Pharm">B.Pharm</option>
+                            <option value="BPT">BPT</option>
+                            <option value="B.Sc">B.Sc</option>
+                            <option value="B.Sc Agriculture">B.Sc Agriculture</option>
+                            <option value="B.Sc Nursing">B.Sc Nursing</option>
+                            <option value="BA">BA</option>
+                            <option value="BUPHS">BUPHS</option>
+                            <option value="D.El.Ed">D.El.Ed</option>
+                            <option value="GNM">GNM</option>
+                            <option value="Hotel Management">Hotel Management</option>
+                            <option value="LLB">LLB</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MBA">MBA</option>
+                            <option value="M.Tech">M.Tech</option>
+                            <option value="PGDM">PGDM</option>
+                            <option value="Polytechnic">Polytechnic</option>
+                            <option value="Other">Other Course</option>
+                        </select>
+                        <input type="text" id="other-course" placeholder="Enter other course"
+                            class="w-full bg-gray-100 rounded border border-gray-300 focus:ring-2 focus:ring-indigo-200 text-sm outline-none text-gray-700 py-2 px-3 leading-6 transition-colors duration-200 ease-in-out hidden mt-2">
+                    </div>
+                    <button id="search-btn"
+                        class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-sm">Get
+                        Guidance</button>
+                </div>
+                <p class="text-xs mt-2 text-gray-500 mb-6 w-full">Your future starts with the right decision today.</p>
+                <div class="flex lg:flex-row md:flex-col">
+                    <button id="careerClick"
+                        class="bg-indigo-500 inline-flex py-2 px-6 rounded-lg items-center text-white hover:bg-indigo-600 focus:outline-none">
+                        <span class="ml-3 flex items-start flex-col leading-none">
+                            <span class="text-xs text-white mb-1">Explore</span>
+                            <span class="title-font font-medium">
+                                <a href="career.html" class="text-white hover:underline">Career Opportunities</a>
+                            </span>
+                        </span>
+                    </button>
+                    <button
+                        class="bg-gray-100 inline-flex py-2 px-6 rounded-lg items-center lg:ml-3 md:ml-0 ml-3 md:mt-3 mt-0 lg:mt-0 hover:bg-gray-200 focus:outline-none">
+                        <span class="ml-3 flex items-start flex-col leading-none">
+                            <span class="text-xs text-gray-600 mb-1">Schedule</span>
+                            <a href="#appointment"
+                                class="title-font font-medium text-indigo-600 hover:underline">One-on-One Counseling</a>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-4/6">
+                <img id="careerImage" class="object-cover object-center rounded" alt="Career Guidance"
+                    src="./img/career21.jpg" data-src="./img/career21.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="bg-white py-8">
+        <div class="container px-5 py-8 mx-auto">
+            <h2 class="text-3xl font-bold text-gray-900 text-center mb-8">Career Counseling Services</h2>
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 md:w-1/3">
+                    <div class="h-full bg-gray-50 p-6 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Personalized Career Counseling</h3>
+                        <p class="leading-relaxed text-gray-600">Get expert guidance to choose the right career path
+                            based on your skills and interests.</p>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3">
+                    <div class="h-full bg-gray-50 p-6 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Education Loan Guidance</h3>
+                        <p class="leading-relaxed text-gray-600">We help students navigate the education loan process,
+                            including DRCC Bihar Sarkar loans.</p>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3">
+                    <div class="h-full bg-gray-50 p-6 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Professional Growth Advice</h3>
+                        <p class="leading-relaxed text-gray-600">Get insights into job market trends and learn how to
+                            grow in your professional journey.</p>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3">
+                    <div class="h-full bg-gray-50 p-6 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Study Abroad Guidance</h3>
+                        <p class="leading-relaxed text-gray-600">We provide assistance for students planning to study
+                            abroad, including university selection and visa processes.</p>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3">
+                    <div class="h-full bg-gray-50 p-6 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Resume Building & Interview Prep</h3>
+                        <p class="leading-relaxed text-gray-600">We help you craft a professional resume and prepare for
+                            interviews to land your dream job.</p>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3">
+                    <div class="h-full bg-gray-50 p-6 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Career Change Guidance</h3>
+                        <p class="leading-relaxed text-gray-600">Thinking of switching careers? We provide tailored
+                            advice to help you make a smooth transition.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="bg-gray-50 py-8">
+        <div class="container px-5 py-8 mx-auto">
+            <h2 class="text-3xl font-bold text-gray-900 text-center mb-8">What Our Students Say</h2>
+            <div class="flex flex-wrap -m-4">
+
+                <!-- Testimonial 1 -->
+                <div class="p-4 md:w-1/2">
+                    <div class="h-full bg-white p-6 rounded-lg shadow-sm">
+                        <p class="leading-relaxed text-gray-600">"Thanks to AK Career Counseling Point, I successfully
+                            completed my GNM course at Moti Babu Institute of Nursing & Paramedical, Forbesganj, Bihar."
+                        </p>
+                        <h3 class="text-lg font-semibold text-gray-900 mt-4">- Anand Kumar</h3>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="p-4 md:w-1/2">
+                    <div class="h-full bg-white p-6 rounded-lg shadow-sm">
+                        <p class="leading-relaxed text-gray-600">"I pursued B.Pharma at TALUKA INSTITUTE OF NURSING,
+                            Patna, Bihar, with the guidance of AK Career Counseling Point. Highly satisfied with their
+                            support!"</p>
+                        <h3 class="text-lg font-semibold text-gray-900 mt-4">- Pawan Shaw</h3>
+                    </div>
+                </div>
+
+                <!-- And Many More -->
+                <div class="p-4 w-full">
+                    <div class="h-full bg-white p-6 rounded-lg shadow-sm text-center">
+                        <p class="leading-relaxed text-gray-600 italic">"...and many more students have successfully
+                            achieved their dreams with our guidance!"</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="bg-white py-8">
+        <div class="container px-5 py-8 mx-auto">
+            <h2 class="text-3xl font-bold text-gray-900 text-center mb-8">Frequently Asked Questions</h2>
+            <div class="border-t border-gray-200 py-6">
+                <details class="mb-4">
+                    <summary class="text-lg font-semibold text-gray-900 cursor-pointer">How does career counseling work?
+                    </summary>
+                    <p class="leading-relaxed text-gray-600 mt-2">We assess your skills, interests, and goals to provide
+                        the best career advice and job market insights.</p>
+                </details>
+                <details class="mb-4">
+                    <summary class="text-lg font-semibold text-gray-900 cursor-pointer">Is counseling free?</summary>
+                    <p class="leading-relaxed text-gray-600 mt-2">We offer both free and premium career counseling
+                        sessions tailored to your needs.</p>
+                </details>
+                <details class="mb-4">
+                    <summary class="text-lg font-semibold text-gray-900 cursor-pointer">What is the duration of a
+                        counseling session?</summary>
+                    <p class="leading-relaxed text-gray-600 mt-2">Each session typically lasts 45 minutes to 1 hour,
+                        depending on your requirements.</p>
+                </details>
+                <details class="mb-4">
+                    <summary class="text-lg font-semibold text-gray-900 cursor-pointer">Can I reschedule my appointment?
+                    </summary>
+                    <p class="leading-relaxed text-gray-600 mt-2">Yes, you can reschedule your appointment by contacting
+                        us at least 24 hours in advance.</p>
+                </details>
+                <details class="mb-4">
+                    <summary class="text-lg font-semibold text-gray-900 cursor-pointer">Do you provide online
+                        counseling?</summary>
+                    <p class="leading-relaxed text-gray-600 mt-2">Yes, we offer both online and in-person counseling
+                        sessions for your convenience.</p>
+                </details>
+                <details class="mb-4">
+                    <summary class="text-lg font-semibold text-gray-900 cursor-pointer">What if I am unsure about my
+                        career interests?</summary>
+                    <p class="leading-relaxed text-gray-600 mt-2">Our counselors will help you explore various career
+                        options based on your strengths and preferences.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Form Section -->
+    <section id="appointment" class="bg-gray-50 py-8">
+        <div class="container px-5 py-8 mx-auto">
+            <h2 class="text-3xl font-bold text-gray-900 text-center mb-6">Book a Career Counseling Appointment</h2>
+            <form id="appointmentForm" class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-md">
+                <label class="block mb-1 text-sm font-medium text-gray-900">Full Name</label>
+                <input type="text" id="name"
+                    class="w-full p-2 mb-3 border rounded-lg focus:ring-2 focus:ring-indigo-500" required>
+
+                <label class="block mb-1 text-sm font-medium text-gray-900">Email</label>
+                <input type="email" id="email"
+                    class="w-full p-2 mb-3 border rounded-lg focus:ring-2 focus:ring-indigo-500" required>
+
+                <label class="block mb-1 text-sm font-medium text-gray-900">Phone Number</label>
+                <input type="tel" id="phone" pattern="[0-9]{10}"
+                    class="w-full p-2 mb-3 border rounded-lg focus:ring-2 focus:ring-indigo-500" required>
+
+                <label class="block mb-1 text-sm font-medium text-gray-900">Preferred Date</label>
+                <input type="date" id="date"
+                    class="w-full p-2 mb-3 border rounded-lg focus:ring-2 focus:ring-indigo-500" required>
+
+                <label class="block mb-1 text-sm font-medium text-gray-900">Current Education Level</label>
+                <select id="education" class="w-full p-2 mb-3 border rounded-lg focus:ring-2 focus:ring-indigo-500"
+                    required>
+                    <option value="">Select</option>
+                    <option value="High School">High School</option>
+                    <option value="Undergraduate">Undergraduate</option>
+                    <option value="Graduate">Graduate</option>
+                    <option value="Postgraduate">Postgraduate</option>
+                    <option value="Working Professional">Working Professional</option>
+                </select>
+
+                <label class="block mb-1 text-sm font-medium text-gray-900">Field of Interest</label>
+                <select id="interest" class="w-full p-2 mb-3 border rounded-lg focus:ring-2 focus:ring-indigo-500"
+                    required>
+                    <option value="">Select</option>
+                    <option value="Engineering">Engineering</option>
+                    <option value="Medical & Healthcare">Medical & Healthcare</option>
+                    <option value="Management & Business">Management & Business</option>
+                    <option value="Arts & Humanities">Arts & Humanities</option>
+                    <option value="IT & Computer Science">IT & Computer Science</option>
+                    <option value="Finance & Accounting">Finance & Accounting</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label class="block mb-1 text-sm font-medium text-gray-900">Career Goals</label>
+                <textarea id="goals" class="w-full p-2 mb-3 border rounded-lg focus:ring-2 focus:ring-indigo-500"
+                    rows="3" placeholder="Briefly describe your career goals"></textarea>
+
+                <label class="block mb-1 text-sm font-medium text-gray-900">Additional Queries (Optional)</label>
+                <textarea id="queries" class="w-full p-2 mb-3 border rounded-lg focus:ring-2 focus:ring-indigo-500"
+                    rows="3" placeholder="Any specific questions or concerns?"></textarea>
+
+                <button type="submit"
+                    class="w-full bg-indigo-500 text-white p-2 rounded-lg hover:bg-indigo-600 transition-all">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-white py-6">
+        <div class="container mx-auto flex flex-col items-center">
+            <p>&copy; 2025 Ak Career Counseling Point. All rights reserved.</p>
+            <div class="flex space-x-4 mt-2">
+                <a href="#" class="hover:text-gray-400">Privacy Policy</a>
+                <a href="#" class="hover:text-gray-400">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
